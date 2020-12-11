@@ -49,6 +49,14 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 /* Header */
 #logo {
   background-color: rgba(211, 63, 9, 1);
@@ -62,11 +70,16 @@ body {
 #logo h1 {
   font-size: 3rem;
   margin-top: 0;
+  font-family: 'Suez One', 'Times New Roman', serif;
+  letter-spacing: 0.8rem;
+  padding-top: 10px;
 }
 
 .nav {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 0;
+  margin: 0;
 }
 
 #logo li {
@@ -77,7 +90,6 @@ body {
 #logo a {
   text-decoration: none;
   color: white;
-  top: -8rem;
 }
 
 /* Landscape Image Section */
@@ -85,6 +97,18 @@ body {
 main {
   position: relative;
   top: 8rem;
+}
+
+.landscapes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.landscape-grill-image {
+  width: 100%;
+  Object-fit: cover;
+  max-height: 50%;
 }
 
 /* Portrait Image Section */
@@ -104,4 +128,10 @@ footer {
 
 footer p {
   font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
