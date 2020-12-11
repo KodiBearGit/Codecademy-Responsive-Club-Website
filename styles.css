@@ -60,6 +60,24 @@ p {
   font-size: 1.5rem;
 }
 
+#top,
+#more,
+#bottom {
+  background-color: rgba(211, 63, 9, 0.7);
+  border-top: 0.2rem solid white;
+  border-bottom: 0.2rem solid white;
+}
+
+figcaption {
+  display: none;
+}
+
+.offbackground {
+  background-color: rgba(255, 255, 255, 0.63);
+  padding: 1rem 1rem 1rem 1rem;
+  color:  rgba(211, 63, 9, 1);
+}
+
 /* Header */
 #logo {
   background-color: rgba(211, 63, 9, 1);
@@ -72,10 +90,10 @@ p {
 
 #logo h1 {
   font-size: 3rem;
-  margin-top: 0;
+  margin: 0;
   font-family: 'Suez One', 'Times New Roman', serif;
   letter-spacing: 0.8rem;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .nav {
@@ -93,6 +111,7 @@ p {
 #logo a {
   text-decoration: none;
   color: white;
+  font-size: 2rem;
 }
 
 /* Landscape Image Section */
@@ -105,16 +124,43 @@ main {
 .landscapes {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   justify-content: space-evenly;
 }
 
 .landscape-grill-image {
   width: 100%;
-  Object-fit: cover;
-  max-height: 50%;
+  height: 30rem; 
+  object-fit: contain;
+  overflow: hidden;
 }
 
+.landscape-grill-image img {
+  max-width: 100%;
+  margin: 0.2rem;
+}
+
+
 /* Portrait Image Section */
+
+.portraits {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.portrait-grill-image {
+  width: 100%;
+  height: 30rem; 
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.portrait-grill-image img {
+  max-width: 100%;
+  margin: 0.2rem;
+}
 
 
 /* Footer */
