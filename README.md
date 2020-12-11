@@ -17,7 +17,7 @@
 * this project contains a series of open-ended requirements which describe the project you’ll be building
 * In this project, you’ll be building your own club group page that will dynamically respond as you adjust the size of your screen!​
 * Build a webpage for a local club. You can base it on real-life organization you belong to or make one up!
-* I'm opting for a fake Grilling Club
+* I'm opting for a GrillClub
 
 ## Technologies
 
