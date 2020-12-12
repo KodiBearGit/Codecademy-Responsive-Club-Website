@@ -40,7 +40,7 @@ List of features (items below requested/suggested to be in final project)
 
 ## Status
 
-Project is: In Progress
+Project is: Completed
 
 ## Inspiration
 

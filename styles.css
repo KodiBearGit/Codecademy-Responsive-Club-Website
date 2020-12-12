@@ -224,7 +224,7 @@ footer a {
   color: white;
 }
 
-@media only screen and (maxwidth: 768px) {
+@media only screen and (maxwidth: 768px) {it 
   #contact {
     flex-wrap: wrap;
   }
